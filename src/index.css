@@ -269,6 +269,11 @@ a {
   .hero-socials {
     justify-content: center;
   }
+
+  .theme-toggle {
+    margin-left: 12px;
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -282,10 +287,6 @@ a {
 
   .hero-description {
     font-size: 1rem;
-  }
-
-  .theme-toggle {
-    margin-left: 0;
   }
 }
 
