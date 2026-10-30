@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
 import p from "../assets/p.png";
 
-
 function Navbar() {
   return (
     <div>
@@ -14,11 +13,7 @@ function Navbar() {
             href="#"
           >
             <img className="profile-img" src={p} alt="Aderanti" />
-            <span
-              className="brand-name"
-            >
-              Aderanti
-            </span>
+            <span className="brand-name">Aderanti</span>
           </NavLink>
           <button
             className="navbar-toggler "
@@ -54,9 +49,9 @@ function Navbar() {
                 </NavLink>
               </li>
             </ul>
+            <ThemeToggle />
           </div>
         </div>
-        <ThemeToggle/>
       </nav>
     </div>
   );
