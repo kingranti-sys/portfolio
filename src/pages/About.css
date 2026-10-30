@@ -196,9 +196,10 @@
     }
 
     .about-details p {
-        grid-template-columns: 105px 1fr;
+        grid-template-columns: 24px 92px 1fr;
         font-size: 0.9rem;
         gap: 8px;
+        align-items: start;
     }
 
     .skill-group {
