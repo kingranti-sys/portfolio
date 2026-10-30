@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
 import p from "../assets/p.png";
 
+
 function Navbar() {
   return (
     <div>
@@ -13,7 +14,11 @@ function Navbar() {
             href="#"
           >
             <img className="profile-img" src={p} alt="Aderanti" />
-            <span className="brand-name">Aderanti</span>
+            <span
+              className="brand-name"
+            >
+              Aderanti
+            </span>
           </NavLink>
           <button
             className="navbar-toggler "
@@ -26,6 +31,8 @@ function Navbar() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
+
+          <ThemeToggle/>
           <div className="collapse navbar-collapse" id="portfolioNavbar">
             <ul className="navbar-nav ms-auto mt-2 gap-lg-3">
               <li className="nav-item">
@@ -50,7 +57,6 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          <ThemeToggle />
         </div>
       </nav>
     </div>

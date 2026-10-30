@@ -47,6 +47,24 @@ a {
   color: var(--text-color);
 }
 
+.portfolio-navbar .container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.navbar-actions .navbar-toggler {
+  margin: 0;
+}
+
 .profile-img {
   width: 40px;
   height: 40px;
@@ -95,6 +113,10 @@ a {
   .portfolio-navbar .navbar-nav {
     padding-top: 12px;
   }
+
+  .portfolio-navbar .navbad-collapse {
+    flex-basis: 100%;
+  }
 }
 
 /* PROJECT CARDS */
@@ -116,10 +138,10 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
   width: 42px;
   height: 42px;
-  margin-left: auto;
-  margin-right: 12px;
+  margin: 0;
   border: 1px solid var(--border-color);
   border-radius: 50%;
   background-color: var(--surface-color);
@@ -161,7 +183,7 @@ a {
 }
 
 .hero-title {
-  font-size: clamp(2.5rem, 5w, 4.5rem);
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
   font-weight: 800;
   line-height: 1.12;
   margin-bottom: 24px;
