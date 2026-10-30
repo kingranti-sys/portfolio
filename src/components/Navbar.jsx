@@ -49,8 +49,8 @@ function Navbar() {
                 </NavLink>
               </li>
             </ul>
-            <ThemeToggle />
           </div>
+          <ThemeToggle />
         </div>
       </nav>
     </div>
