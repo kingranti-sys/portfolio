@@ -125,6 +125,11 @@ a {
   .portfolio-navbar .navbar-collapse {
     flex-basis: 100%;
   }
+
+  .portfolio-navbar .theme-toggle {
+    order: 2;
+    margin-left: 6px;
+  }
 }
 
 /* PROJECT CARDS */

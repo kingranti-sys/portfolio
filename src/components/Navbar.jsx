@@ -28,8 +28,6 @@ function Navbar() {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-
-            <ThemeToggle />
           </div>
           <div className="collapse navbar-collapse" id="portfolioNavbar">
             <ul className="navbar-nav ms-auto mt-2 gap-lg-3">
@@ -55,6 +53,8 @@ function Navbar() {
               </li>
             </ul>
           </div>
+
+          <ThemeToggle />
         </div>
       </nav>
     </div>
