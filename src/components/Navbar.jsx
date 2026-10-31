@@ -16,7 +16,7 @@ function Navbar() {
             <span className="brand-name">Aderanti</span>
           </NavLink>
 
-          <div className="navbar-actions">
+          <div className="navbar-actions me-0">
             <button
               className="navbar-toggler "
               type="button"
