@@ -127,8 +127,9 @@ a {
   }
 
   .portfolio-navbar .theme-toggle {
-    order: 2;
-    margin-left: 6px;
+   position: absolute;
+   top: 15px;
+   right: 4.5rem;
   }
 }
 
