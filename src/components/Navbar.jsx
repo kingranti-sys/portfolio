@@ -16,9 +16,9 @@ function Navbar() {
             <span className="brand-name">Aderanti</span>
           </NavLink>
 
-          <div className="navbar-actions me-0">
+          <div className="navbar-actions">
             <button
-              className="navbar-toggler "
+              className="navbar-toggler ms-auto"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#portfolioNavbar"
